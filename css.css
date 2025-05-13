@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+
+  align-items: center;
+  text-align: center;
+  margin-left: 38%;
+  justify-content: space-between;
+  width: 25%;
+  height: 100px;
+
+ 
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  padding: 18px 18px;
+  margin-top: 300px;
+ 
+}
+.siz{
+  background-color: rgb(7, 236, 248);
+  height: 100%;
+  width: 50%;
+  margin-left: 10px;
+  opacity: 70%;
+  border-radius: 20px;
+  
+}
+.namehours ,.namemen , .namesec{
+  background-color: aquamarine;
+  margin-top: 15px;
+}
+.h , .m , .s {
+  margin-top: 18px;
+  font-size: 40px;
+  background-color: white;
+  color:black;
+  width: 50px;
+ margin-left: 32px;
+ border-radius: 10px;
+ padding: 3px 3px;
+
+
+}
