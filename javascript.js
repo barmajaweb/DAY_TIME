@@ -12,7 +12,7 @@ setInterval(() => {
   s =  s < 10 ? "0" + s : s ; 
   if (h > 5 && h <= 19){
    document.body.style.cssText=`
-    background: url(img/morning.jpg);
+    background: url(morning.jpg);
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -21,7 +21,7 @@ setInterval(() => {
    `;
   }else if( h == 20   ) {
     document.body.style.cssText =  `
-    background: url(img/aftr.jpg);
+    background: url(aftr.jpg);
    background-size: cover;
    background-position: center;
    align-items: center;
@@ -30,7 +30,7 @@ setInterval(() => {
     `;
   }else if (h > 20 || h <= 5 ) {
     document.body.style.cssText =  `
-    background: url(img/night.jpg);
+    background: url(night.jpg);
    background-size: cover;
    background-position: center;
    align-items: center;
