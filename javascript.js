@@ -30,7 +30,7 @@ setInterval(() => {
     `;
   }else if (h > 20 || h <= 5 ) {
     document.body.style.cssText =  `
-   background: url(barmaja.jpg);
+   background: url(night.jpg);
    background-size: cover;
    background-position: center;
    align-items: center;
